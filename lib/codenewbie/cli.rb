@@ -1,8 +1,12 @@
-require "codenewbie/cli/version"
+class Codenewbie::CLI
 
-module Codenewbie
-  module Cli
-    class Error < StandardError; end
-    # Your code goes here...
+  def call
+    puts "List of Codenewbie Episodes! (test)"
+    list_episodes
   end
+
+  def list_episodes
+    puts "1. A 2. B"
+  end
+
 end
