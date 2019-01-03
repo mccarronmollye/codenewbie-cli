@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'codenewbie'
+Codenewbie::CLI.new.call
